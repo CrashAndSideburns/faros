@@ -1,0 +1,14 @@
+[package]
+name = "faros"
+version = "0.1.0"
+authors = ["CrashAndSideburns <62062835+CrashAndSideburns@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = "2.33"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "0.8", features = ["v4", "serde"] }
